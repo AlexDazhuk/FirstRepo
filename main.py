@@ -23,3 +23,11 @@ print("branch test 9")
 print(math.ceil(a / b))
 
 print("branch test 10")
+print("branch test 9")
+
+print(a ** b)
+print("branch test 10")
+
+b = 123 - 456 / 98
+print(b)
+print("branch test 11")
