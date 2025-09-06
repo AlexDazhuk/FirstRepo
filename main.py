@@ -21,3 +21,5 @@ print("branch test 9")
 
 print(a ** b)
 print("branch test 10")
+
+b = 123 - 456 / 98
