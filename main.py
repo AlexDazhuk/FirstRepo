@@ -17,3 +17,7 @@ print("branch test 7")
 print(a // b)
 print("branch test 8")
 print(a % b)
+
+import math
+print("branch test 9")
+print(math.ceil(a / b))
