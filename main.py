@@ -13,3 +13,7 @@ print(a % b)
 print("branch test 6")
 print(a ** b)
 print("branch test 7")
+
+print(a // b)
+print("branch test 8")
+print(a % b)
