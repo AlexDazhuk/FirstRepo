@@ -21,3 +21,5 @@ print(a % b)
 import math
 print("branch test 9")
 print(math.ceil(a / b))
+
+print("branch test 10")
