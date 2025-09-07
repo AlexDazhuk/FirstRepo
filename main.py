@@ -13,26 +13,18 @@ import math
 print(math.ceil(a / b))
 print(math.floor(a / b))
 
-def plus(x: int, y: int) -> int:
+def plus(x: float, y: float) -> float:
     return x + y
 print(plus(190, 15))
 
-def minus(x: int, y: int) -> int:
+def minus(x: float, y: float) -> float:
     return x - y
 print(minus(190, 15))
 
-def multiply(x: int, y: int) -> int:
+def mul(x: float, y: float) -> float:
     return x * y
-print(multiply(190, 15))
+print(mul(190, 15))
 
-def mul_1(x: float, y: float) -> float:
-    return x * y
-print(mul_1(190.5, 15))
-
-def divide(x: int, y: int) -> float:
+def div(x: float, y: float) -> float:
     return x / y
-print(divide(190, 15))
-
-def div_1(x: float, y: float) -> float:
-    return x / y
-print(div_1(190.5, 15.1))
+print(div(190, 15))
