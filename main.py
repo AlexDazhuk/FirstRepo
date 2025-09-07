@@ -28,3 +28,7 @@ print(multiply(190, 15))
 def multiply(x: float, y: float) -> float:
     return x * y
 print(multiply(190.5, 15))
+
+def divide(x: int, y: int) -> float:
+    return x / y
+print(divide(190, 15))
