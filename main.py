@@ -25,10 +25,14 @@ def multiply(x: int, y: int) -> int:
     return x * y
 print(multiply(190, 15))
 
-def multiply(x: float, y: float) -> float:
+def mul_1(x: float, y: float) -> float:
     return x * y
-print(multiply(190.5, 15))
+print(mul_1(190.5, 15))
 
 def divide(x: int, y: int) -> float:
     return x / y
 print(divide(190, 15))
+
+def div_1(x: float, y: float) -> float:
+    return x / y
+print(div_1(190.5, 15.1))
