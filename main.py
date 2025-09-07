@@ -11,6 +11,7 @@ print(a % b)
 
 import math
 print(math.ceil(a / b))
+print(math.floor(a / b))
 
 def plus(x: int, y: int) -> int:
     return x + y
